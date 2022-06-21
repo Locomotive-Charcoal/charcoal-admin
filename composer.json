@@ -1,6 +1,6 @@
 {
     "type": "library",
-    "name": "locomotivemtl/charcoal-admin",
+    "name": "charcoal/admin",
     "description": "The Charcoal Administration Dashboard",
     "keywords": ["charcoal", "admin", "cms"],
     "homepage": "https://charcoal.locomotive.ca",
@@ -20,7 +20,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.2-dev"
+            "dev-master": "2.2-dev"
         }
     },
     "require": {
@@ -29,15 +29,15 @@
         "guzzlehttp/guzzle": "^6.0 || ^7.0",
         "kriswallsmith/assetic": "^1.4",
         "laminas/laminas-permissions-acl": "^2.8",
-        "locomotivemtl/charcoal-app": "^1.2",
-        "locomotivemtl/charcoal-cache": "^1.2",
-        "locomotivemtl/charcoal-cms": "^1.2",
-        "locomotivemtl/charcoal-core": "^1.2",
-        "locomotivemtl/charcoal-email": "^1.2",
-        "locomotivemtl/charcoal-object": "^1.2",
-        "locomotivemtl/charcoal-translator": "^1.2",
-        "locomotivemtl/charcoal-ui": "^1.2",
-        "locomotivemtl/charcoal-user": "^1.2",
+        "charcoal/app": "^2.2",
+        "charcoal/cache": "^2.2",
+        "charcoal/cms": "^2.2",
+        "charcoal/core": "^2.2",
+        "charcoal/email": "^2.2",
+        "charcoal/object": "^2.2",
+        "charcoal/translator": "^2.2",
+        "charcoal/ui": "^2.2",
+        "charcoal/user": "^2.2",
         "mcaskill/php-html-build-attributes": "^1.0",
         "paragonie/random_compat": ">=2",
         "psr/cache": "^1.0",
